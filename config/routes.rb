@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  root :to => "actors#index"
   resources :reviews
   resources :bookmarks
   resources :characters
